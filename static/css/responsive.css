@@ -1,0 +1,532 @@
+@media screen and (max-width: 2560px) {
+    .top-contact {
+        background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ),
+            url('../images/call-center-mobile.jpg');
+        background-size: 100% 100%;
+        background-position: 90% 100%;
+    }
+    .grid-item {
+        background-color: rgba(255, 255, 255, 0.8);
+        border: 0px solid rgba(0, 0, 0, 0.8);
+        
+      }
+    .texth2 {
+        height: 127px;
+        width: 395px;
+    }
+    figure {
+        margin: 60px;
+    }
+    .top-text-service {
+        padding: 2px 65px 0px 65px;
+    }
+}
+@media screen and (max-width: 1024px) {
+    .gmap_canvas-iframe {
+        width: 448px;
+    }
+    .gmap_canvas {
+        width: 431px;
+    }
+    .col-sm-5 {
+        width: 43.666667%;
+    }
+    .col-sm-5-top {
+        width: 39.666667%;
+    }
+}
+
+
+
+    .topnav {
+        overflow: hidden;
+        //background-color: #333;
+    }
+
+        .topnav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+
+
+        .topnav a.active {
+            background-color: #4CAF50;
+            color: white;
+        }
+
+        .topnav .icon {
+            display: none;
+        }
+
+    @media screen and (max-width: 600px) {
+
+        .topnav a:not(:first-child) {
+            display: none;
+        }
+
+        .topnav ul a li:not(:first-child) {
+            display: none;
+        }
+
+
+
+        .topnav a.icon {
+            float: right;
+            display: block;
+        }
+    }
+
+
+
+    @media screen and (max-width: 600px) {
+
+        .topnav.responsive {
+            position: relative;
+            -webkit-text-emphasis: double-circle;
+            -webkit-text-stroke: medium;
+        }
+
+
+
+            .topnav.responsive .icon {
+                position: absolute;
+                right: 0;
+                top: 0;
+            }
+
+
+
+            .topnav.responsive a {
+                float: none;
+                display: block;
+                text-align: left;
+                background-color: antiquewhite;
+            }
+
+
+             
+    }
+
+
+
+
+
+    @media only screen and (max-width: 1900px) {
+        .industies {
+            height: 505px;
+        }
+    }
+
+    @media only screen and (max-width: 1500px) {
+        .industies {
+            height: 459px;
+        }
+    }
+
+    @media only screen and (max-width: 1400px) {
+        .industies {
+            height: 412px;
+        }
+    }
+
+    @media only screen and (max-width: 1300px) {
+        .industies {
+            height: 360px;
+        }
+    }
+
+    @media only screen and (max-width: 1150px) {
+        .industies {
+            height: 328px;
+        }
+    }
+
+
+
+@media (max-width:992px) {
+    .large-screen {
+        visibility: hidden;
+    }
+
+    .small-screen {
+        visibility: visible;
+    }
+
+    .gallery-hero {
+        background: url("../images/divi-gallery-hero-background.jpg") no-repeat;
+        background-size: cover;
+        background-size: 100% 875px;
+        background-position: 10% 0%;
+    }
+
+    .column-7 {
+        padding: 180px 0 0 140px;
+        margin-top: 147px;
+        margin-left: 161px;
+        color: lavender;
+        margin: auto;
+    }
+
+
+
+        .column-7 h2 {
+            font-size: 20px;
+        }
+
+    .header {
+        bottom: 1px;
+    }
+
+    .logo {
+        margin-top: -40px;
+    }
+
+    .qeust1 {
+        margin: 28px;
+        padding: 38px 2px 24px 33px;
+    }
+
+    .questions-box {
+        /*display: table-cell:*/
+        display: inline-flex;
+    } 
+
+    .gmap_canvas-iframe {
+        width: 504px;
+        height: 624px;
+        padding: 19px 171px 11px 25px;
+    }
+
+    .contact {
+        width: 762px;
+        height: 630px;
+    }
+
+    .mapouter {
+        height: 504px;
+    }
+
+    .col-sm-5 {
+        width: 44.666667%;
+    }
+
+    .col-sm-5-top {
+        width: 38.666667%
+    }
+    .texth2 {
+        height: 127px;
+        width: 304px;
+        
+    }
+}
+
+
+
+
+    @media only screen and (max-width: 960px) {
+        .industies {
+            height: 264px;
+        }
+    }
+
+    @media only screen and (max-width: 870px) {
+        .industies {
+            height: 264px;
+        }
+    }
+
+    @media only screen and (max-width: 780px) {
+        .industies {
+            height: 190px;
+        }
+    }
+
+
+
+
+
+
+    @media screen and (max-width:479px) {
+        #myVideo{right:-627px}
+        .fron {
+            text-align: center;
+            padding: 1px 1px 9px 7px;
+        }
+
+        .qeust1 {
+            padding: 1px 1px 38px 1px;
+        }
+
+        .parent {
+            width: 82%;
+        }
+
+        .large-screen {
+            visibility: hidden;
+        }
+
+        .small-screen {
+            visibility: visible;
+        }
+
+
+        .topnav.responsive .icon {
+            position: absolute;
+            right: 0;
+            top: 15px;
+        }
+
+        .topnav a.icon {
+            float: right;
+            display: block;
+            padding: 8px;
+            background: transparent;
+        }
+
+
+        .topnav {
+            font-size: 12px;
+            color: red;
+        }
+
+
+
+        .header ul {
+            // margin: -33px;
+            display: grid;
+        }
+
+
+
+            .header ul li {
+                font-size: 12px;
+                color: red;
+            }
+
+
+
+        .logo-header {
+            visibility: hidden;
+        }
+
+
+
+        .header ul li a, .header ul a li {
+            //color: blue;
+            font-weight: bold;
+        }
+
+        .gallery-hero {
+            background: url("../images/divi-gallery-hero-background.jpg") no-repeat;
+            background-size: cover;
+            background-size: 100% 693px;
+            background-position: 10% 0%;
+        }
+
+
+
+        p.lead {
+            padding: 28px 0px 0px 0px;
+        }
+
+        .hline-bottom {
+            padding-bottom: 1px;
+            border-bottom: 1px dotted #000; /* whichever color you prefer */
+        }
+
+        .column-container {
+            padding: 6px 2.5%;
+        }
+
+
+
+        .column-7 {
+            padding: 375px 0 0 60px;
+            margin-top: 300px;
+            color: lavender;
+            margin: auto;
+        }
+        .parent {
+            height:70%
+        }
+
+
+        .column-7 h2 {
+            font-size: 13px;
+        }
+
+
+
+        .logo {
+            margin-left: 0px;
+            margin-top: -90px;
+            width: 90px;
+            height: 10px;
+            padding: 100px 20px 10px 10px;
+        }
+
+
+
+        div.flip-3d {
+            perspective: 500px;
+            padding: 10px 1px 10px 20px;
+            display: inline-block;
+            margin: 2%;
+            width: 350px;
+        }
+
+
+
+        .footer-top {
+            background: #1b1b1b;
+            color: #8f8f8f;
+            padding: 3px 275px 0px 55px;
+            width: 50%;
+            margin: 0 auto;
+        }
+
+
+
+        .new_back {
+            height: 230px
+        }
+
+        .footer-top {
+            display: contents;
+        }
+
+            .footer-top h3 {
+                font-size: 36px;
+                padding: 1px 1px 1px 1px;
+                border-bottom: 4px solid #909090;
+            }
+
+        .button_slide {
+            padding: 7px 23px 2px 43px;
+        }
+
+        .prev:hover, .next:hover {
+            //background-color: rgba(0,0,0,0.8);
+            color: white;
+        }
+
+        .questions-box {
+            //display: block;
+            font-size: 13px;
+        }
+
+        .new_back_support {
+            height: 450px;
+        }
+
+        .top-contact {
+            background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../images/call-center-mobile.jpg');
+            //background: url('../images/call-center-mobile.jpg') no-repeat;
+            background-position: 100% 42%;
+            background-size: 100% 100%;
+        }
+
+        .gmap_canvas-iframe {
+            width: 855px;
+            height: 407px;
+            padding: 0px 499px 6px 0px;
+        }
+
+        .contact {
+            width: 366px;
+            height: 428px;
+        }
+
+        .gmap_canvas {
+            height: 449px;
+            width: auto;
+        }
+
+        .col-sm-5 {
+            width: 445px
+        }
+
+        .row-magin {
+            margin-left: -7px
+        }
+
+        .col-sm-5-top {
+            width: 48.666667%;
+        }
+        figure{margin:30px;}
+
+        .top-text-service {
+            padding: 41px 4px 0px 29px;
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+        /*  pop up menu for other pages*/
+         
+
+    }
+
+
+
+
+
+    @media screen and (max-width:350px) {
+        .gallery-hero {
+            background: url("../images/divi-gallery-hero-background.jpg") no-repeat;
+            background-size: cover;
+            background-size: 100% 517px;
+            height: 612px !important;
+            background-position: 10% 0%;
+        }
+
+        .column-7 {
+            padding: 202px 0 0 38px;
+            margin-top: 147px;
+            margin-left: 161px;
+            color: lavender;
+            margin: auto;
+        }
+
+        .header {
+            bottom: -389px;
+        }
+
+        .column-container {
+            padding: 1px 2.5%;
+        }
+
+        .chat-popup {
+            display: none;
+            position: fixed;
+            bottom: 0;
+            right: -21px;
+            border: 3px solid #f1f1f1;
+            z-index: 9;
+        }
+
+        #frame {
+            width: 30%;
+            min-width: 360px;
+            max-width: 1000px;
+            height: 72vh;
+            min-height: 300px;
+            max-height: 720px;
+            background: #E6EAEA;
+        }
+
+        .new_back_support {
+            height: 553px
+        }
+
+        
+    }
