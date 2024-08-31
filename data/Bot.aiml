@@ -1,0 +1,71 @@
+<aiml version="1.0">
+<!-- This category works with the Standard AIML Set -->
+
+
+
+
+<category>
+  <pattern>What is schweiz</pattern>
+  <template>
+      <random>
+          <li>www.cnn.com</li>
+          <li>www.msnbc.com</li>
+          <li>news.google.com</li>
+          <li>www.foxnews.com</li>
+      </random>
+  </template>
+</category>
+
+<category>
+  <pattern>Who is your founder</pattern>
+  <template>
+      <random>
+          <li>My founder is Katabullet</li>
+          <li>schweetz LTD</li>
+          <li>SCHWEETZ</li>
+          <li> My father is PK</li>
+                </random>
+  </template>
+</category>
+
+<category>
+  <pattern>what are your services</pattern>
+  <template>
+      <random>
+          <li>we develop softwares</li>
+          <li>We run ads</li>
+          <li>We desing</li>
+ 
+  </template>
+</category>
+
+  <pattern>what services do you offer</pattern>
+  <template>
+      <random>
+          <li>we develop softwares</li>
+          <li>We run ads</li>
+          <li>We desing</li>
+ 
+  </template>
+</category>
+
+<category> 
+  <pattern>What is schweiz</pattern> 
+  <template>SCHWEETZ is a smart software company based in Cameroon. Located in Nyom 1</template> 
+</category> 
+<category> 
+  <pattern>Where is schweiz located  </pattern> 
+  <template><srai>What is schweiz</srai></template> 
+</category> 
+
+<category> 
+  <pattern>What does schweiz do  </pattern> 
+  <template><srai>What is schweiz</srai></template> 
+</category> 
+<category> 
+  <pattern>* schweiz services * location *</pattern> 
+  <template><srai>What is schweiz</srai></template> 
+</category> 
+
+
+</aiml>

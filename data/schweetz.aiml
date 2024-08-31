@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml version="1.0.1" xmlns="http://alicebot.org/2001/AIML-1.0.1"
+      xmlns:html="http://www.w3.org/1999/xhtml"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://alicebot.org/2001/AIML-1.0.1 http://aitools.org/aiml/schema/AIML.xsd">
+<!-- Free software Copyright � ALICE A.I. Foundation, Inc. --> 
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0.1 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- Revision Biography 1.04 -->
+<!-- Last Modified  Sep 09 2005 -->
+   
+ <category> 
+  <pattern>schweetz email change</pattern> 
+  <template>Your email address won't change! You'll continue to receive all your email at your current email address.</template> 
+</category> 
+<category> 
+  <pattern>Will my email address change with schweetz mail</pattern> 
+  <template><srai>schweetz email change</srai></template> 
+</category> 
+<category> 
+  <pattern>* Email address change * schweetz *</pattern> 
+  <template><srai>schweetz email change</srai></template> 
+</category> 
+
+ <category>
+    <pattern>OPEN SAP</pattern>
+    <template>
+        <random>
+            <li>Sure thing!</li>
+            <li>Right away, sir!</li>
+            <li>On it!</li>
+        </random>
+        <system>start saplogon </system>
+    </template>
+</category>
+
+<category>
+    <pattern>* OPEN SAP</pattern>
+    <template>
+        <srai> OPEN SAP </srai>
+    </template>
+</category>
+
+<category>
+    <pattern>* SAP *</pattern>
+    <template>
+        <srai> OPEN SAP </srai>
+    </template>
+</category>
+
+
+<category> 
+  <pattern>What is schweetz</pattern> 
+  <template>SCHWEETZ is a smart software company based in Cameroon. Located in Nyom 1</template> 
+</category> 
+<category> 
+  <pattern>Where is schweetz located </pattern> 
+  <template><srai>What is schweetz</srai></template> 
+</category> 
+<category> 
+  <pattern>* schweetz services * location *</pattern> 
+  <template><srai>What is schweetz</srai></template> 
+</category> 
+
+
+
+</aiml>
